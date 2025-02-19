@@ -55,6 +55,7 @@ dependencies {
 
     implementation "com.android.billingclient:billing-ktx:$billing_version"
     implementation files('jars/in-app-purchasing-2.0.76.jar')
+    implementation 'com.amazon.device:amazon-appstore-sdk:3.+'
     implementation 'androidx.annotation:annotation:1.6.0'
 }
 
